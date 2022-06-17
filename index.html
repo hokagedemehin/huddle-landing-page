@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800;900&family=Poppins:wght@600;800;900&display=swap"
+    rel="stylesheet">
+  <title>Huddle</title>
+  <link href="../dist/output.css" rel="stylesheet" />
+  <style>
+    .hero-section {
+      background-image: url('../images/bg-hero-desktop.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: #EBFBFF;
+      /* background-attachment: fixed; */
+
+    }
+  </style>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/60c95ad6aa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main class="">
+    <div class="hero-section mb-10 sm:mb-20 ">
+      <!-- logo & nav -->
+      <div class=" flex justify-between pt-8 px-4 max-w-6xl mx-auto">
+        <img data-aos="fade-right" data-aos-duration="1000" src="../images/logo.svg" class="h-5 "
+          alt="huddle logo" />
+
+        <div data-aos="fade-left" data-aos-duration="1000" class="">
+          <a class='bg-white px-8 py-2 rounded-full shadow-md shadow-gray-300 border text-sm font-bold hover:opacity-75 hover:text-gray-500 transition duration-300 ease-in-out'
+            href="#">Try it free</a>
+
+        </div>
+      </div>
+
+      <!-- hero call to action -->
+      <div class="hero py-12 px-10 max-w-4xl mx-auto ">
+        <div
+          class="flex sm:flex-row flex-col justify-center items-center space-x-0 sm:space-x-7 sm:space-y-4 font-fam1 w-full">
+          <!-- side information -->
+          <div class="flex flex-col space-y-5">
+            <h3 data-aos="flip-left" data-aos-duration="1000" class='font-extrabold text-2xl'>Build
+              The Community Your Fans
+              Will Love</h3>
+            <p data-aos="fade-up" data-aos-duration="1000" class='text-xs font-medium'>Huddle
+              re-imagines the way we build
+              communities. You
+              have a voice,
+              but so does your
+              audience. Create connections with your users as you engage in genuine discussions</p>
+            <button data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
+              class='bg-[#FF52BF] hover:bg-pink-300 px-10 py-3 shadow-md rounded-full w-fit text-xs text-white transition duration-300 ease-in-out'>Get
+              Started For
+              Free</button>
+          </div>
+          <!-- hero image -->
+
+          <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000"
+            src="../images/illustration-mockups.svg" class="h-full w-[22rem] pt-8 sm:pt-0"
+            alt="huddle hero image" />
+
+        </div>
+      </div>
+    </div>
+    <!-- features section -->
+    <div class='flex flex-col space-y-5 pb-20 font-fam1 max-w-4xl mx-auto'>
+
+      <!-- card 1 -->
+      <section
+        class="flex sm:flex-row flex-col-reverse  sm:space-y-0 justify-center items-center px-4 py-8 border mx-4 sm:mx-10 rounded-lg shadow-md shadow-gray-300">
+        <!-- information -->
+        <div data-aos-duration="2000" data-aos="fade-right"
+          class="flex flex-col space-y-4 sm:mr-20 sm:ml-10 text-center sm:text-left mx-4 sm:mx-0">
+          <h3 class='font-extrabold text-xl '>Grow Together</h3>
+          <p class='text-sm text-gray-400'>Generate meaningful discussions with your audience and
+            build a strong , loyal
+            community. Think of the insightful conversations you miss out on with a feedback form
+          </p>
+        </div>
+        <!-- section image -->
+        <img data-aos="fade-left" data-aos-duration="2000"
+          src="../images/illustration-grow-together.svg" class=" h-60 mb-6 sm:mb-0"
+          alt="grow together" />
+      </section>
+
+      <!-- card 2 -->
+      <section
+        class="flex sm:flex-row flex-col sm:space-y-0 justify-center items-center px-4 py-8 border mx-4 sm:mx-10 rounded-lg shadow-md shadow-gray-300">
+        <!-- section image -->
+        <img data-aos="fade-right" data-aos-duration="2000"
+          src="../images/illustration-flowing-conversation.svg" class=" h-60  mb-6 sm:mb-0"
+          alt="flowing conversation" />
+
+        <!-- information -->
+        <div data-aos="fade-left" data-aos-duration="2000"
+          class="flex flex-col space-y-4 sm:mr-20 sm:ml-10 text-center sm:text-left mx-4 sm:mx-0">
+          <h3 class='font-extrabold text-xl'>Flowing Conversation</h3>
+          <p class='text-sm text-gray-400'>You wouldn't paginate a conversation in real life, so why
+            do it online? Out threadss have just-in-time loading for a more natural flow
+          </p>
+        </div>
+
+      </section>
+
+      <!-- card 3 -->
+      <section
+        class="flex sm:flex-row flex-col-reverse  sm:space-y-0 justify-center items-center px-4 py-8 border mx-4 sm:mx-10 rounded-lg shadow-md shadow-gray-300">
+        <!-- information -->
+        <div data-aos="fade-right" data-aos-duration="2000"
+          class="flex flex-col space-y-4 sm:mr-20 sm:ml-10 text-center sm:text-left mx-4 sm:mx-0">
+          <h3 class='font-extrabold text-xl'>
+            Your Users</h3>
+          <p class='text-sm text-gray-400'>It takes no time at all to integrate Huddle with your
+            app's authentication solution. This means, once signed in to your app, your users can
+            start chatting immediately.
+          </p>
+        </div>
+        <!-- section image -->
+        <img data-aos="fade-left" data-aos-duration="2000"
+          src="../images/illustration-your-users.svg" class=" h-60  mb-6 sm:mb-0"
+          alt="grow together" />
+      </section>
+    </div>
+
+    <!-- call to action -->
+    <section class='flex justify-center -mb-16 '>
+      <div data-aos="flip-up" data-aos-duration="1000"
+        class="flex flex-col text-center justify-center items-center px-10 py-6 border mx-10 rounded-lg space-y-4 bg-white">
+
+        <h3 class='font-bold text-xl font-fam2'>Ready To Build Your Community?</h3>
+
+
+        <button
+          class='bg-[#FF52BF] hover:bg-pink-300 px-10 py-3 shadow-md rounded-full w-fit text-xs font-bold text-white transition duration-300 ease-in-out'>Get
+          Started For
+          Free</button>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="flex flex-col px-6 sm:px-16 py-8 bg-[#00252E]">
+      <div
+        class="flex flex-col space-y-4 sm:sapce-y-0 sm:grid sm:grid-cols-5 sm:gap-6 mt-16 max-w-4xl mx-auto">
+        <!-- logo and information -->
+        <div class="grid col-span-2">
+          <div class="flex flex-col  items-start space-y-5 w-full">
+            <!-- logo -->
+            <img src="../images/logo1.svg" class="h-5" alt="huddle logo" />
+            <!-- information -->
+            <div class="flex justify-center items-center space-x-4">
+              <img src="../images/icon-location.svg" class="h-5" alt="location logo" />
+              <p class='text-white text-xs'>Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit.
+                Omnis
+                aliquid debitis nam,
+                suscipit perferendis fuga animi odit sapiente .</p>
+            </div>
+            <div class="flex justify-center items-center space-x-4">
+              <img src="../images/icon-phone.svg" class="h-5" alt="phone logo" />
+              <p class='text-white text-xs'>+1-543-123-4567</p>
+            </div>
+            <div class="flex justify-center items-center space-x-4">
+              <img src="../images/icon-email.svg" class="h-4" alt="email logo" />
+              <p class='text-white text-xs'>example@huddle.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- nav links -->
+        <div class="flex flex-col justify-center space-y-4 w-full">
+
+          <ul class="flex flex-col space-y-2">
+            <li class='text-white text-xs'>
+              <a href="#" class="hover:underline transition duration-300 ease-in-out">About Us</a>
+            </li>
+            <li class='text-white text-xs'>
+              <a href="#" class="hover:underline transition duration-300 ease-in-out">What We Do</a>
+            </li>
+            <li class='text-white text-xs'>
+              <a href="#" class="hover:underline transition duration-300 ease-in-out">Faq</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <!-- nav links -->
+        <div class="flex flex-col justify-center space-y-4 w-full">
+
+          <ul class="flex flex-col space-y-2">
+            <li class='text-white text-xs'>
+              <a href="#" class="hover:underline transition duration-300 ease-in-out">Career</a>
+            </li>
+            <li class='text-white text-xs'>
+              <a href="#" class="hover:underline transition duration-300 ease-in-out">Blog</a>
+            </li>
+            <li class='text-white text-xs'>
+              <a href="#" class="hover:underline transition duration-300 ease-in-out">Contact Us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- social links -->
+        <div class="flex justify-center  w-full">
+
+          <ul class="flex space-x-2">
+            <li class=''>
+              <a href="#"
+                class='text-white flex justify-center items-center text-xs border rounded-full w-7 h-7 hover:text-[#FF52BF] hover:border-[#FF52BF] transition duration-300 ease-in'>
+                <i class="fa-brands fa-facebook-f "></i></a>
+            </li>
+            <li class=''>
+              <a href="#"
+                class='text-white flex justify-center items-center text-xs border rounded-full w-7 h-7 hover:text-[#FF52BF] hover:border-[#FF52BF] transition duration-300 ease-in'>
+                <i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class=''>
+              <a href="#"
+                class='text-white flex justify-center items-center text-xs border rounded-full w-7 h-7 hover:text-[#FF52BF] hover:border-[#FF52BF] transition duration-300 ease-in'>
+                <i class="fa-brands fa-instagram"></i></a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+      <div class="flex justify-center sm:justify-end pt-4 sm:pt-0 max-w-4xl mx-auto w-full">
+        <p class='text-white text-xs'>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
